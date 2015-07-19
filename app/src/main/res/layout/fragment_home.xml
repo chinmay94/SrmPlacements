@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/srmlogo"
+            android:id="@+id/imageView2" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="48sp"
+                android:text="SRM"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/textView0" />
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="PLACEMENTS"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="5dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:scrollbars="vertical"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="This app is a companion for all your placement related messages and notifications. You can recieve and reply to notifications sent to you by the career development cell. This was done so that messages sent to students can be accessed at a single place without any hassle."
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal|center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:scrollbars="vertical"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The app works in a simple way. You get a push notification every time you get selected for a companies test. You can reply to that message in either yes or no. The reply will be recorded by the placement department and you will be given further information based on that."
+            android:textSize="15sp"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal|center_vertical" />
+    </LinearLayout>
+</LinearLayout>

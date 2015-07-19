@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomHeaderDark" parent="MaterialNavigationDrawerTheme">
+        <item name="colorPrimary">#0c477f</item>
+        <item name="colorPrimaryDark">#213776</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="singleAccount">true</item><!-- Remove the change account button -->
+    </style>
+
+</resources>

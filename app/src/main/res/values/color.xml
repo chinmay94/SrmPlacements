@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splashscreenbackground">#181818</color>
+    <color name="splashscreentext">#ffffff</color>
+
+    <color name="loginscreenbackground">#181818</color>
+    <color name="loginscreentext">#ffffff</color>
+    <color name="loginscreenedittext">#ffffff</color>
+    <color name="loginscreenedittexthint">#bebebe</color>
+
+    <color name="primary">#30D171</color>color>
+    <color name="splashsecond">#275b8d</color>color>
+    <color name="xcolor">#303030</color>color>
+
+
+</resources>

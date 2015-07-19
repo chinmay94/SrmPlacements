@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Srm Placements</string>
+
+    <string name="baseUrl">http://ckapoor.esy.es/</string>
+    <string name="loginPage">gcm.php</string>
+    <string name="historyPage">gcm.php</string>
+    <string name="registrationPage">gcm.php?shareRegId=1</string>
+    <string name="replyPage">gcm.php</string>
+    <string name="settingsPage">gcm.php</string>
+    <string name="homePage">gcm.php</string>
+
+    <string name="projectId">287328618660</string>
+
+</resources>

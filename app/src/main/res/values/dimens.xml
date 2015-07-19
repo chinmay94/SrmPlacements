@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="splashscreentext">30sp</dimen>
+    <dimen name="splashscreenbox">200dp</dimen>
+
+    <dimen name="loginscreenedittextwidth">270dp</dimen>
+    <dimen name="loginscreenedittextheight">48dp</dimen>
+    <dimen name="loginscreentext">48sp</dimen>
+</resources>

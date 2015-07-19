@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wallet_holo_blue_light">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/nid"
+            android:textSize="50sp"
+            android:textColor="@color/common_signin_btn_dark_text_default" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nid"
+            android:text="New Text"
+            android:id="@+id/ndate"
+            android:textSize="50sp"
+            android:textColor="@color/common_signin_btn_dark_text_default" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ndate"
+            android:text="New Text"
+            android:id="@+id/ncont"
+            android:textSize="50sp"
+            android:textColor="@color/common_signin_btn_dark_text_default" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/replyText"
+            android:layout_centerHorizontal="true" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/replyText"
+            android:id="@+id/comment"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reply"
+            android:id="@+id/submit"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>
